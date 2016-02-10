@@ -1,0 +1,39 @@
+body {
+    background-color: #F3F4EA;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    left: 0;
+    margin: -50% auto 0;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: small-caps;
+	font-weight: 400;
+    color: #0C545C;
+	line-height: 48px;
+}
+
+.picture-container {
+	overflow: hidden;
+    border: 8px solid #6E9DAD;
+    background-color: #EBD0BF;
+    padding: 5px;
+}
+
+.picture-container,
+.round-picture {
+    width: 80vw;
+    height: 80vw;
+    margin: auto;
+    border-radius: 50%;
+}
